@@ -1,0 +1,14 @@
+{
+  "name": "announcement-ai-root",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd announcement-ai && npm run dev",
+    "build": "cd announcement-ai && npm run build",
+    "start": "cd announcement-ai && npm run start",
+    "lint": "cd announcement-ai && npm run lint"
+  },
+  "workspaces": [
+    "announcement-ai"
+  ]
+}
